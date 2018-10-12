@@ -10,6 +10,18 @@
         .swiper-container{
             height: 250px;
         }
+        .swiper-slide{
+            background-size: auto 250px !important;
+            background-repeat: no-repeat !important;
+        }
+        .swiper-slide span{
+            position: absolute;
+            bottom: 20px;
+            background-color: rgba(0,0,0,0.21);
+            color: #ffffff;
+            padding-left: 5px;
+            width: 100%;
+        }
         .today-update-list li{
             list-style: none;
             line-height: 29px;
@@ -102,9 +114,12 @@
                         <div class="panel-body">
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">Slide 1</div>
-                                    <div class="swiper-slide">Slide 2</div>
-                                    <div class="swiper-slide">Slide 3</div>
+                                    <div class="swiper-slide" style="background: url(https://assets.bootcss.com/www/assets/img/expo.png);">
+                                        <span>text</span>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(https://assets.bootcss.com/www/assets/img/expo.png);">
+                                        <span>text</span>
+                                    </div>
                                 </div>
                                 <!-- Add Arrows -->
                                 <div class="swiper-button-next"></div>
